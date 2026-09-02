@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-![описание_картинки](photo_2026-09-02_21-08-27.jpg)
+![Мой проект](photo_2026-09-02_21-08-27.jpg)
 
 ## Recommended IDE Setup
 

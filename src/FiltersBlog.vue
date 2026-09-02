@@ -1,10 +1,10 @@
 <template>
 
-        <div class="">
+        <div class="" style="">
 
 <div class="mt-3 d-flex justify-content-between  "  >
-    <div class="d-flex align-items-center">
-        <input @click="Filter('Estée Lauder') ;sendTags()" class="form-check-input me-1" type="checkbox"  value="" id="firstCheckbox">
+    <div class="d-flex align-items-center" >
+        <input @click="Filter('Estée Lauder')  ;" class="form-check-input me-1" type="checkbox"  value="" id="firstCheckbox">
         <label class="form-check-label" for="firstCheckbox">Estée Lauder</label>
     </div>
     <div class="textColVo">{{ obj.Estée_Lauder  }}</div>
@@ -75,6 +75,7 @@ const obj = computed(() => ({
 function Filter(Brand){
     if(!filters.value.includes(Brand)){
         filters.value.push(Brand)
+       
     }else{
         filters.value.indexOf(Brand)
         filters.value.splice(filters.value.indexOf(Brand),1)
